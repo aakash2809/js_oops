@@ -42,6 +42,6 @@ depositForm.addEventListener('submit', (e) =>{
         (account) => account.accountNumber === +accountNumber.value ) // +accountNumber.value  here + sign 
         // '+accountNumber.value'  here + sign converts string to number
     account.deposit(+depositeAmount.value)
-    console.log(accounts) // accont detail with updated account balance
+    console.log(accounts) // account detail with updated account balance
     
 } )
